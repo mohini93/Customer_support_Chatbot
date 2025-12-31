@@ -53,6 +53,7 @@ Generate Answer (LLM: HuggingFace API or Local)
         ↓
 Return Response with Sources
 ```
+<img width="1916" height="965" alt="Screenshot 2025-12-01 195609" src="https://github.com/user-attachments/assets/3d43b193-7399-47dd-a54a-83f3e67adb9a" />
 
 ### Components
 
@@ -77,6 +78,10 @@ Return Response with Sources
 ### Database
 - **SQLite**: Chat sessions and message history
 - **ChromaDB**: Vector embeddings storage
+<img width="1882" height="870" alt="Screenshot 2025-12-01 223014" src="https://github.com/user-attachments/assets/b3b525b5-6f5e-4e89-9ec3-fcf2d3602857" />
+<img width="1916" height="862" alt="Screenshot 2025-12-01 224142" src="https://github.com/user-attachments/assets/0dcd3775-d650-476a-928a-4dbdccdd45dc" />
+
+
 
 ## 🚀 Quick Start
 
