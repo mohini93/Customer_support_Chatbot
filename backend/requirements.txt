@@ -6,16 +6,17 @@ pydantic==2.5.0
 python-dotenv==1.0.0
 requests==2.31.0
 
-# LangChain - using compatible versions
+# LangChain
 langchain==0.1.0
 langchain-community==0.0.10
 langchain-core==0.1.23
 
-# Vector Database
-chromadb==0.4.18
+# Vector DB (stable version)
+chromadb==0.4.22
 
-# Embeddings
+# Embeddings (safe)
 sentence-transformers==2.2.2
+tokenizers==0.13.3   # 🔥 IMPORTANT (fixes Rust error)
 
 # Document Processing
 PyPDF2==3.0.1
@@ -23,22 +24,11 @@ python-docx==1.1.0
 pypdf==3.17.1
 
 # Image Processing
-Pillow>=10.2.0
+Pillow==10.2.0
 
-# ML/AI
-# Note: Installing numpy first with pre-built wheel to avoid compilation issues
-# transformers==4.35.2
-# torch>=2.6.0
-# accelerate==0.25.0
+# Hugging Face
 huggingface-hub==0.19.4
 
-# OCR dependencies (choose one or both)
-# Option 1: Tesseract (requires system installation)
-pytesseract==0.3.10
-
-# Option 2: EasyOCR (no system dependencies, but larger)
-easyocr==1.7.0
-
-# Async file operations
+# Async
 aiofiles==23.2.1
 
