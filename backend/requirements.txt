@@ -11,20 +11,20 @@ langchain==0.1.0
 langchain-community==0.0.10
 langchain-core==0.1.23
 
-# Vector DB (stable version)
+# Vector DB (stable, no rust issues)
 chromadb==0.4.22
 
-# Embeddings (safe)
+# Embeddings
 sentence-transformers==2.2.2
-tokenizers==0.13.3   # 🔥 IMPORTANT (fixes Rust error)
+tokenizers==0.13.3
 
 # Document Processing
 PyPDF2==3.0.1
 python-docx==1.1.0
 pypdf==3.17.1
 
-# Image Processing
-Pillow==10.2.0
+# Image Processing (fixed version)
+Pillow==9.5.0
 
 # Hugging Face
 huggingface-hub==0.19.4
